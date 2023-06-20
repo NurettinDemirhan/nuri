@@ -6,14 +6,24 @@
   align-items: center;
 }
 .about-container header {
-  width: 80%;
+  width: 95%;
   margin-top: 2rem;
   padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid pink;
+  border: 1px solid pink;
   border-radius: 5rem;
+  box-shadow: 12px 17px 51px rgba(211, 94, 94, 0.22);
+  transition: all 0.5s;
+  user-select: none;
+}
+.about-container header:hover {
+  border: 1px solid rgba(212, 83, 83, 0.789);
+  transform: scale(1.02);
+}
+.about-container header:active {
+  transform: scale(0.95) rotateZ(1.7deg);
 }
 .about-container header img {
   width: 200px;
@@ -32,16 +42,25 @@
   font-size: 1.5rem;
 }
 .about-container .tech-container {
-  width: 80%;
+  width: 95%;
   margin-top: 2rem;
   padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid pink;
+  border: 1px solid pink;
   border-radius: 5rem;
-  margin-bottom: 2rem;
+  box-shadow: 12px 17px 51px rgba(211, 94, 94, 0.22);
+  transition: all 0.5s;
+  user-select: none;
+}
+.about-container .tech-container:hover {
+  border: 1px solid rgba(212, 83, 83, 0.789);
+  transform: scale(1.02);
+}
+.about-container .tech-container:active {
+  transform: scale(0.95) rotateZ(1.7deg);
 }
 .about-container .tech-container h2 {
   font-size: 2rem;

@@ -1,0 +1,71 @@
+.about-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-container header {
+  width: 80%;
+  margin-top: 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid pink;
+  border-radius: 5rem;
+}
+.about-container header img {
+  width: 200px;
+  align-self: center;
+  margin: 1rem;
+  margin-top: 3rem;
+}
+.about-container header article {
+  margin: 1rem;
+}
+.about-container header article h1 {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+.about-container header article p {
+  font-size: 1.5rem;
+}
+.about-container .tech-container {
+  width: 80%;
+  margin-top: 2rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid pink;
+  border-radius: 5rem;
+  margin-bottom: 2rem;
+}
+.about-container .tech-container h2 {
+  font-size: 2rem;
+}
+.about-container .tech-container .tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+  justify-content: center;
+}
+.about-container .tech-container .tech-list .one-tech {
+  width: 32%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5%;
+  margin-bottom: 2rem;
+}
+.about-container .tech-container .tech-list .one-tech img {
+  width: 50px;
+}
+.about-container .tech-container .tech-list .one-tech label {
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=about.css.map */

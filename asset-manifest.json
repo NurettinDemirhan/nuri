@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nuri/static/css/main.1859b6fe.css",
+    "main.js": "/nuri/static/js/main.91a1a344.js",
+    "static/js/787.9a8ebf1e.chunk.js": "/nuri/static/js/787.9a8ebf1e.chunk.js",
+    "index.html": "/nuri/index.html",
+    "main.1859b6fe.css.map": "/nuri/static/css/main.1859b6fe.css.map",
+    "main.91a1a344.js.map": "/nuri/static/js/main.91a1a344.js.map",
+    "787.9a8ebf1e.chunk.js.map": "/nuri/static/js/787.9a8ebf1e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1859b6fe.css",
+    "static/js/main.91a1a344.js"
+  ]
+}

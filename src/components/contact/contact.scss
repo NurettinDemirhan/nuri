@@ -9,12 +9,13 @@
     margin-bottom: 2rem;
     // background-color: #1f1f1f;
     section{
-        width: 95%;
+        width: 98%;
         margin-top: 2rem;
         padding: 1rem;
         display: flex;
         justify-content: center;
         flex-direction: column;
+        align-items: center;
         border: 1px solid rgb(182, 243, 212);
         border-radius: 5rem;
         box-shadow: 12px 17px 51px rgba(32, 150, 95, 0.22);
@@ -30,18 +31,31 @@
             transform: scale(0.95) rotateZ(1.7deg);
         }
         h1{
-            margin-left: 3rem;
+            margin-left: 2rem;
             font-size: 1.7rem;
+            @include mQmax(900px){
+                margin-left: 1rem;
+                font-size: 1.2rem;
+            }
         }
         .one-link{
-            margin-left: 3rem;
+            margin-left: 2rem;
             margin-bottom: 1rem;
+            width: 90%;
+            @include mQmax(900px){
+                margin-left: 1rem;
+                
+            }
             div{
                 display: flex;
                 align-items: center;
                 gap: 1rem;
-                font-size: 1.5rem;
+                font-size: 1.3rem;
                 margin-bottom: 0.5rem;
+                @include mQmax(900px){
+                    max-width: 90%;
+                    font-size: 1rem;
+                }
                 img{
                     width: 35px;
                 }
@@ -50,6 +64,10 @@
                 color:#fff0f0;
                 text-decoration: none;
                 font-size: 1.2rem;
+                @include mQmax(900px){
+                    max-width: 90%;
+                    font-size: 0.8rem;
+                }
             }
         }
     }

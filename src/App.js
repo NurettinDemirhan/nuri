@@ -4,6 +4,7 @@ import About from './components/about/About';
 import Contact from './components/contact/Contact';
 
 import { Link, animateScroll as scroll } from "react-scroll";
+import Projects from './components/projects/Projects';
 
 scroll.scrollToTop();
 
@@ -30,7 +31,7 @@ function App() {
           smooth={true}
           duration={500}
         >
-          <button class="my-work-button">My Work</button>
+          <button class="my-work-button">Projects</button>
         </Link>
         <Link
           to="contact"
@@ -45,6 +46,7 @@ function App() {
 
       <div id='about' className='main-container'>
         <About/>
+        <Projects/>
         <Contact/>
       </div>
       

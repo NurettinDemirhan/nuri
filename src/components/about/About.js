@@ -1,5 +1,5 @@
 import "./about.css";
-
+import pic from "./pp.jpeg";
 
 export default function About(){
 
@@ -12,10 +12,15 @@ export default function About(){
                     <article>
                         <h1>Hello. I'm Nurettin Demirhan</h1>
                         <p>
-                        I am a Full Stack Web Developer. I have a huge passion for Web Development. 
-                        I'm used to be very focused, proactive and meticulous on my work. 
-                        I am also very positive about communicating with 
-                        people thanks to my team project experiences.
+                        Highly motivated and dedicated Junior Full-Stack Developer 
+                        with a passion for creating innovative and user-friendly web
+                        applications. Proficient in both front-end and back-end development,
+                        </p>
+                        <p>
+                        I possess a solid foundation in various programming languages, frameworks,
+                        and technologies. Equipped with strong problem-solving skills and a keen 
+                        eye for detail, I thrive in collaborative environments while continuously 
+                        seeking opportunities to expand my knowledge and grow as a developer.
                         </p>
                     </article>
                 </header>
@@ -32,7 +37,7 @@ export default function About(){
                         </div>
                         <div className="one-tech">
                             <label>SASS</label>
-                            <img src="https://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png" alt="sass image"/>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/2560px-Sass_Logo_Color.svg.png" alt="sass image"/>
                         </div>
                         <div className="one-tech">
                             <label>TYPESCRIPT</label>

@@ -1,0 +1,135 @@
+@import "../../vars-mixins.scss";
+
+
+
+.projects-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    // background-color: #1f1f1f;  
+    .projects{
+        max-width: 100%;
+        width: 98%;
+        margin-top: 2rem;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid rgb(182, 243, 212);
+        border-radius: 5rem;
+        box-shadow: 12px 17px 51px rgba(32, 150, 95, 0.22);
+        transition: all 0.5s;
+        &:hover {
+            border: 1px solid rgb(172, 248, 210);
+            transform: scale(1.02);
+        }
+        .project-one{
+            max-width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            border-bottom: 2px solid rgb(20, 148, 84);
+            margin-bottom: 1rem;
+            .featured-sets-slider{
+                overflow: hidden;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .oneSlide{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .fakeSlide{
+                    @include mQmax(900px){
+                        display: none;
+                    }
+                }
+            }
+            a{
+                margin-bottom: 2rem;
+                color: rgb(172, 248, 210);
+                text-decoration: none;
+                font-size: 1.2rem;
+                margin-top: 1rem;
+                max-width: 70%;
+                &:hover{
+                    color: rgb(50, 120, 85);
+                }
+                @include mQmax(900px){
+                    max-width: 90%;
+                    font-size: 1rem;
+                }
+            }
+            p{
+                font-size: 1.2rem;
+                margin-bottom: 0rem;
+                margin-top: 1rem;
+                max-width: 70%;
+                text-align: center;
+                @include mQmax(900px){
+                    max-width: 90%;
+                    font-size: 1rem;
+                }
+            }
+        }
+        .project-two{
+            max-width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            
+            .featured-sets-slider{
+                overflow: hidden;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .oneSlide{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .fakeSlide{
+                    @include mQmax(900px){
+                        display: none;
+                    }
+                }
+            }
+            a{
+                margin-bottom: 0.5rem;
+                color: rgb(172, 248, 210);
+                text-decoration: none;
+                font-size: 1.2rem;
+                margin-top: 1rem;
+                max-width: 70%;
+                &:hover{
+                    color: rgb(50, 120, 85);
+                }
+                @include mQmax(900px){
+                    max-width: 90%;
+                    font-size: 1rem;
+                }
+            }
+            p{
+                font-size: 1.2rem;
+                margin-bottom: 0rem;
+                margin-top: 1rem;
+                max-width: 70%;
+                text-align: center;
+                @include mQmax(900px){
+                    max-width: 90%;
+                    font-size: 1rem;
+                }
+            }
+        }
+        
+    }
+}  

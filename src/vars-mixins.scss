@@ -35,3 +35,13 @@
         transform: scale(0.95) rotateZ(1.7deg);
     }
 }
+@mixin mQmin($arg){
+    @media screen and (min-width: $arg){
+        @content;
+    }
+}
+@mixin mQmax($arg){
+    @media screen and (max-width: $arg){
+        @content;
+    }
+}

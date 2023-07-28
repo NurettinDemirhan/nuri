@@ -21,15 +21,13 @@
         box-shadow: 12px 17px 51px rgba(32, 150, 95, 0.22);
         // backdrop-filter: blur(6px);
         transition: all 0.5s;
-        user-select: none;
+        
         &:hover {
             border: 1px solid rgb(172, 248, 210);
             transform: scale(1.02);
         }
           
-        &:active {
-            transform: scale(0.95) rotateZ(1.7deg);
-        }
+         
         h1{
             margin-left: 2rem;
             font-size: 1.7rem;

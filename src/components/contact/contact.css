@@ -18,14 +18,10 @@
   border-radius: 5rem;
   box-shadow: 12px 17px 51px rgba(32, 150, 95, 0.22);
   transition: all 0.5s;
-  user-select: none;
 }
 .contact-container section:hover {
   border: 1px solid rgb(172, 248, 210);
   transform: scale(1.02);
-}
-.contact-container section:active {
-  transform: scale(0.95) rotateZ(1.7deg);
 }
 .contact-container section h1 {
   margin-left: 2rem;

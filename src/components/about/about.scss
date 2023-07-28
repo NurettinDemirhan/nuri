@@ -6,7 +6,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
     header{
         width: 98%;
         margin-top: 2rem;
@@ -17,17 +16,13 @@
         border: 1px solid rgb(182, 243, 212);
         border-radius: 5rem;
         box-shadow: 12px 17px 51px rgba(32, 150, 95, 0.22);
-        
         transition: all 0.5s;
-        user-select: none;
         &:hover {
             border: 1px solid rgb(172, 248, 210);
             transform: scale(1.02);
         }
           
-        &:active {
-            transform: scale(0.95) rotateZ(1.7deg);
-        }
+        
         
         img{
             width: 200px;
@@ -70,15 +65,13 @@
         box-shadow: 12px 17px 51px rgba(32, 150, 95, 0.22);
         // backdrop-filter: blur(6px);
         transition: all 0.5s;
-        user-select: none;
+        
         &:hover {
             border: 1px solid rgb(172, 248, 210);
             transform: scale(1.02);
         }
           
-        &:active {
-            transform: scale(0.95) rotateZ(1.7deg);
-        }
+        
         .tech-list{
             display: flex;
             flex-wrap: wrap;
